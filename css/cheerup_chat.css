@@ -26,7 +26,7 @@ section {
 
 /* 스크롤바 모양 */
 
-::-webkit-scrollbar {
+ ::-webkit-scrollbar {
     width: 8px;
 }
 
@@ -120,4 +120,51 @@ footer form input {
 .input-submit {
     background-color: #1658D6;
     color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {}
+
+@media (min-width: 650px) and (max-width: 767.98px) {}
+
+@media (min-width: 451px) and (max-width: 650px) {
+    .chat_nickname {
+        font-size: 15px;
+    }
+    .chat_content {
+        font-size: 18px;
+    }
+    .chatbox button {
+        font-size: 15px;
+    }
+    .sub {
+        margin-top: 0;
+    }
+    .input-pw,
+    .input-submit {
+        width: 50px;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width:450px) {
+    .chat_nickname {
+        font-size: 15px;
+    }
+    .chat_content {
+        font-size: 18px;
+    }
+    .chatbox button {
+        font-size: 15px;
+    }
+    .sub {
+        margin-top: 0;
+    }
+    .input-pw,
+    .input-submit {
+        width: 50px;
+        padding: 10px 0;
+    }
+    .input-text {
+        width: 219px;
+    }
 }

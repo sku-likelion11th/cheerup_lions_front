@@ -32,7 +32,7 @@ function updateCountdown() {
         const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-        countdownElement.textContent = `${days}일 ${hours} : ${minutes} : ${seconds}`;
+        countdownElement.textContent = `${days}일 ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 
         setTimeout(updateCountdown, 1000); // Update every 1 second
     } else {
