@@ -17,9 +17,10 @@ body {
 /* section */
 
 section {
-    height: 720px;
+    height: 600px;
     padding: 20px;
     overflow-y: auto;
+    margin-bottom: 130px;
 }
 
 
@@ -39,7 +40,7 @@ section {
 
 .chatbox {
     position: relative;
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
 }
 
