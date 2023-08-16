@@ -13,3 +13,15 @@ body {
 #countdown {
     font-size: 80px;
 }
+
+.fighting {
+    font-size: 30px;
+}
+
+.mainbtn button {
+    width: 180px;
+    background-color: #1658D6;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
