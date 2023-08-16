@@ -5,3 +5,11 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+.timeout {
+    font-size: 35px;
+}
+
+#countdown {
+    font-size: 80px;
+}
