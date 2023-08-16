@@ -1,3 +1,4 @@
+// 반응형 텍스트 변경
 const inputpw = document.querySelector('.input-pw');
 const submitbtn = document.querySelector('.input-submit');
 

@@ -7,6 +7,7 @@
     <title>응원하기</title>
     <link rel="stylesheet" href="../css/cheerup_chat.css">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
@@ -38,10 +39,11 @@
                     <span>우리아기사자들 화이팅이에요 홧팅홧팅!!</span>
                     <div class="sub">
                         <span id="timedisplay"></span>
-                        <button onclick="">수정</button>
-                        <button>삭제</button>
+                        <button onclick="checkpasswordEdit()">수정</button>
+                        <button onclick="checkpasswordRemove()">삭제</button>
                     </div>
                 </div>
+                <span class="pw_confirm"></span>
             </div>
             <div class="chatbox mb-4">
                 <div class="chat_nickname text-white">익명아기사자1</div><br/>
@@ -71,7 +73,7 @@
                     <span>우리아기사자들 화이팅이에요 홧팅홧팅!!</span>
                     <div class="sub">
                         <span id="timedisplay"></span>
-                        <button onclick="">수정</button>
+                        <button>수정</button>
                         <button>삭제</button>
                     </div>
                 </div>
@@ -86,13 +88,14 @@
                         <button>삭제</button>
                     </div>
                 </div>
+
             </div>
         </section>
 
         <footer class="sbaggroM">
             <div class="container">
-                <form action="" class="d-flex justify-content-between align-items-center ">
-                    <input type="password" maxlength="4" class="input-pw me-3 text-center" placeholder="비밀번호 입력">
+                <form action="" id="chatForm" class="d-flex justify-content-between align-items-center ">
+                    <input type="password" maxlength="4" class="input-pw me-3 text-center" placeholder="비밀번호 입력" autocomplete="current-password">
                     <input type="text" maxlength="30" class="input-text flex-grow-1 flex-shrink-3" placeholder="응원의 메세지 작성하기!">
                     <input type="submit" id="submitTime" class="input-submit ms-3" value="게시하기">
                 </form>
@@ -101,6 +104,7 @@
     </div>
 
     <script src="../js/media.js"></script>
+    <script src="../js/cheerup_chat.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm " crossorigin="anonymous "></script>
 </body>
 
