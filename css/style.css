@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* 폰트 */
+
+.mainFont {
+    font-family: 'PyeongChangPeace-Bold';
+}
+
+
+/* 로고, 타이틀 */
+
+.mainLogo p {
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.mainLogo span {
+    font-size: 36px;
+}
+
+.mainTitle {
+    font-size: 50px;
+}
