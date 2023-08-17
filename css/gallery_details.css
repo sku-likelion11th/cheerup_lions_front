@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(22, 88, 214, 0.85) !important;
+}
+
+.detail_all {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#detail_chatForm input {
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.input-pw1 {
+    width: 120px;
+    background-color: #5382DA;
+}
+
+.input-pw1::placeholder {
+    color: white;
+}
+
+.input-submit1 {
+    background-color: #1658D6;
+    color: white;
+}
+
+.detail_title {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+}
+
+.detail_img {
+    margin-right: 20px;
+}
+
+.detail_chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detail-chating {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.write_chat {
+    padding-top: 10px;
+    border-top: 3px solid #1658d6;
+}
