@@ -2,7 +2,7 @@
 const inputpw = document.querySelector('.input-pw');
 const submitbtn = document.querySelector('.input-submit');
 
-// 미디어 쿼리 감지 함수
+// 응원하기 댓글창
 function checkMediaQuery() {
     if (window.matchMedia('(max-width: 650px)').matches) {
         inputpw.placeholder = '비번';
@@ -13,6 +13,5 @@ function checkMediaQuery() {
     }
 }
 
-// 페이지 로드시 및 리사이즈 이벤트 시 미디어 쿼리 감지 함수 호출
 window.addEventListener('load', checkMediaQuery);
 window.addEventListener('resize', checkMediaQuery);

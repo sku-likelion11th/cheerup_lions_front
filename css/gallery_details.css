@@ -55,9 +55,9 @@ body {
 }
 
 .scroll-chat {
-    height: 500px;
+    max-height: 500px;
     overflow-y: scroll;
-    padding: 30px;
+    padding: 15px;
 }
 
 
@@ -103,4 +103,41 @@ body {
 
 .sub button {
     padding: 0 3px;
+}
+
+.mainTitle {
+    text-align: right;
+}
+
+
+/* 반응형 */
+
+@media (max-width:1200px) {
+    .detail_all {
+        flex-direction: column;
+    }
+    .detail_img {
+        margin-bottom: 20px;
+    }
+    .input-text1 {
+        flex-grow: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .mainTitle {
+        text-align: center;
+    }
+    .input-pw1,
+    .input-submit1 {
+        width: 50px;
+        padding: 10px 0;
+    }
+    .input-text1 {
+        width: 165px;
+    }
 }
