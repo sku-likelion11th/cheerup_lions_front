@@ -4,7 +4,7 @@ const submitbtn1 = document.querySelector('.input-submit1');
 
 // 미디어 쿼리 감지 함수
 function checkMediaQuery1() {
-    if (window.matchMedia('(max-width: 650px)').matches) {
+    if (window.matchMedia('(max-width: 768px)').matches) {
         inputpw1.placeholder = '비번';
         submitbtn1.value = '게시';
     } else {
