@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(22, 88, 214, 0.85) !important;
+}
+
+.postingImg button {
+    background: white;
+    color: #1658D6;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.image {
+    width: 100%;
+    /* 이미지 컨테이너의 너비 조절 */
+    height: 250px;
+    overflow: hidden;
+    /* 이미지가 컨테이너를 벗어나지 않도록 함 */
+}
+
+.image img {
+    width: 100%;
+    /* 이미지의 너비를 100%로 설정하여 컨테이너에 맞춤 */
+    height: auto;
+    /* 이미지의 높이는 자동 조절됨 */
+    display: block;
+    /* 이미지를 블록 요소로 설정하여 수직 중앙 정렬 적용 */
+    transition: transform 0.2s;
+    /* 이미지 위에 마우스를 올렸을 때 약간의 스케일 변화를 위한 효과 */
+}
+
+.image img:hover {
+    transform: scale(1.1);
+    /* 마우스 호버 시 약간 확대되는 효과 */
+}
