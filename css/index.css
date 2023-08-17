@@ -25,3 +25,7 @@ body {
     border-radius: 15px;
     padding: 10px 15px;
 }
+
+.mainTitle1 {
+    font-size: 45px !important;
+}
