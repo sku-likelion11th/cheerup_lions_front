@@ -2,7 +2,7 @@ body {
     background-color: rgb(22, 88, 214, 0.85) !important;
 }
 
-.postingImg button {
+.postingImg {
     background: white;
     color: #1658D6;
     border: none;
@@ -51,6 +51,9 @@ body {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
     }
+    .imagebox {
+        height: 300px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -60,4 +63,49 @@ body {
     .imagebox {
         height: 300px;
     }
+}
+
+
+/* modal */
+
+.modalform {
+    height: 100px;
+    background-color: white;
+}
+
+.modalform form {
+    height: 100px;
+}
+
+.modalform form input {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.input-pw2 {
+    width: 140px;
+}
+
+.input-pw2 {
+    background-color: #5382DA;
+}
+
+.input-pw2::placeholder {
+    color: white;
+}
+
+.input-text2 {
+    background: #e1e1e1;
+    flex-grow: 1;
+}
+
+.input-submit2 {
+    background-color: #1658D6;
+    color: white;
+}
+
+.modal-header {
+    border-bottom: none !important;
+    font-size: 30px;
 }
